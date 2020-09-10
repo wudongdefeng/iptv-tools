@@ -1,8 +1,8 @@
-name: Publish playlists
+name: Publish playlist
 
 on:
   schedule:
-    - cron:  '30 1 * * *'
+    - cron:  '47 23 * * *'
   watch:
     types: started
 
