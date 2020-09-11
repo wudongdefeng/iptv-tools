@@ -2,7 +2,7 @@ name: Publish playlist
 
 on:
   schedule:
-    - cron:  '47 23 * * *'
+    - cron:  '12 * * * *'
   watch:
     types: started
 
