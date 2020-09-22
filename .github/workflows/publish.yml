@@ -22,6 +22,7 @@ jobs:
         npm run generate https://iptv-org.github.io/iptv/languages/zho.m3u zho.txt
         npm run generate https://iptv-org.github.io/iptv/languages/jpn.m3u jpn.txt
         npm run generate https://iptv-org.github.io/iptv/languages/kor.m3u kor.txt
+        npm run generate https://raw.githubusercontent.com/wudongdefeng/Apple-IPTV/master/Hongkong.m3u hk.txt
 
     - name: Clean
       run: rm -rf .github && ls -l .
