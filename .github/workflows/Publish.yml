@@ -22,7 +22,7 @@ jobs:
         npm run generate https://raw.githubusercontent.com/wudongdefeng/Apple-IPTV/master/Hongkong.m3u hk.txt
         npm run generate https://gitee.com/dyanj311/iptv/raw/master/all.m3u all.txt
         npm run generate https://raw.githubusercontent.com/wing0110210317/MyTV/master/MyTV.m3u MyTV.txt
-        npm run generate https://raw.githubusercontent.com/expertein/expertein.github.io/master/stream/test.m3u8 test.txt
+        
     - name: Clean
       run: rm -rf .github && ls -l .
 
